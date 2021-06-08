@@ -1,0 +1,138 @@
+p {
+  font-family: "Trirong", serif;
+}
+body {
+  position: relative;
+}
+li {
+  font-family: "Pattaya";
+  font-size: 1.3em;
+  text-align: center;
+}
+h2 {
+  font-family: 'Sigmar One', cursive;
+}
+.black {
+  color: black;
+  font-family: "Pattaya";
+}
+:target:before
+{
+   display: block;
+   height: 220px; // Height of header.
+   padding: -40px;
+   content: "";
+}
+.flavorheading {
+  font-family: 'Sigmar One', cursive;
+}
+.imageheading {
+  width: 100%;
+}
+.nav-title {
+  font-family: "Pattaya";
+  margin-left: 1em;
+}
+.splashscreen {
+  background-image: url("images/pineapple.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  width: 100%;
+  min-height: 100vh;
+}
+.splashtext {
+  text-align: center;
+  padding-top: 30%;
+  color: black;
+  font-family: 'Sigmar One', cursive;
+}
+.sub-heading {
+  font-family: "Pattaya";
+}
+.button-font {
+  font-family: 'Sigmar One', cursive;
+  font-size: 1em;
+}
+.section-title {
+  text-align: center;
+  color: black;
+  margin-top: 4em;
+  margin-bottom: 2em;
+  font-family: "Pattaya";
+}
+.accordion-header {
+  color: black;
+}
+.menu-item h3 {
+  text-align: center;
+  padding-top: 0.5em;
+}
+.menu-item p {
+  text-align: left;
+}
+.menu-item .price {
+  text-align: right;
+}
+.menu-image {
+  height: 20vh;
+  align-content: center;
+}
+.iceePicture {
+  background-image: url("images/menu/icees.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  min-height: 35vh;
+  width: 100%;
+}
+.smoothiePicture {
+  background-image: url("images/menu/icees.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  min-height: 35vh;
+  width: 100%;
+}
+.cateringimage {
+  background-image: url("images/catering1.jpg");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  width: 100%;
+  min-height: 90vh;
+}
+.cateringtext {
+  text-align: center;
+  color: white;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+.cateringtitletext {
+  text-align: center;
+  color: white;
+  font-family: "Pattaya";
+}
+.cakeimage {
+  background-image: url("images/menu/cake.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 25vh;
+}
+.plattersimage {
+  background-image: url("images/menu/platters.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 25vh;
+}
+.iceechestimage {
+  background-image: url("images/menu/iceechest.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  min-height: 25vh;
+}

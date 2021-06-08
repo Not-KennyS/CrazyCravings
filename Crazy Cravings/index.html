@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- fonts -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pattaya">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Modak&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed:wght@700&family=Sigmar+One&display=swap" rel="stylesheet">
+  <!-- fonts -->
+
+  <title>Crazy Cravings</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <!-- bootstrap -->
+
+</head>
+
+<body class="bg-white" data-bs-spy="scroll" data-bs-offset="0" data-bs-target="#navbarNavAltMarkup">
+
+
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-md sticky-top navbar-light" style="background: #e3a957">
+    <div class="container-fluid">
+      <a class="navbar-brand nav-title" href="#splash">Crazy Cravings</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="nav navbar-nav ms-auto px-5">
+            <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+            <li class="nav-item"><a class="nav-link" href="#catering">Catering</a></li>
+            <li class="nav-item"><a class="nav-link" href="#directions">Directions</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+    </div>
+  </nav>
+  <!-- !Navigation -->
+
+  <div id="fb-root"></div>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v10.0" nonce="de5CLe1i"></script>
+
+  <!-- Hero Image -->
+  <header>
+    <div class="splashscreen border-bottom border-secondary mb-5">
+      <div class="container">
+        <div class="splashtext">
+          <h1 class="display-3">Crazy Cravings</h1>
+          <h5 class="sub-heading">Cold Treats and Good Eats.</h5>
+          <p class="button-font"><a class="btn btn-lg border border-dark m-2" style="background: #e3a957" href="#menu" role="button">Order Now</a></p>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- !Hero Image -->
+
+  <!-- About -->
+  <div class="section-title">
+    <img src="images/logo.png" alt="" width="329" height="342">
+  </div>
+  <!-- !About -->
+
+  <!-- Menu -->
+
+  <!-- Title -->
+  <div id="menu" class="container"></div>
+  <div class="section-title">
+    <h1 class="display-1">Menu</h1>
+  </div>
+
+  <!-- Start of main accordion -->
+  <div class="accordion accordion-flush my-4 mx-1" id="accordionMenu">
+
+    <!-- Food Accordion -->
+    <div class="accordion-item my-1">
+      <h2 class="accordion-header" id="headingFood">
+      <button style="background: #e3a957" class="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFood" aria-expanded="false" aria-controls="collapseFood">
+        Food
+      </button>
+      </h2>
+    <div id="collapseFood" class="accordion-collapse collapse" aria-labelledby="headingFood" data-bs-parent="#accordionMenu">
+      <div class="accordion-body">
+
+        <!-- Start of Food sub-accordion -->
+        <div class="accordion accordion-flush" id="accordionFood">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSweetTreats">
+              <button style="background: #e3a957" class="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSweetTreats" aria-expanded="false" aria-controls="collapseSweetTreats">
+                Cold Treats
+              </button>
+            </h2>
+            <div id="collapseSweetTreats" class="accordion-collapse collapse" aria-labelledby="headingSweetTreats" data-bs-parent="#accordionFood">
+              <div class="accordion-body">
+                <div class="container-fluid">
+                  <div class="row justify-content-center">
+
+                    <div class="col-6 col-md-4 py-1 my-1">
+                      <div class="menu-item">
+                        <div class="container-fluid text-center">
+                          <img src="images/menu/fruitcup.jpg" class="menu-image">
+                        </div>
+                        <h3>Fruit Cups</h3>
+                        <p>Description</p>
+                        <p class="price">$5.00</p>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 py-1 my-1">
+                      <div class="menu-item">
+                        <div class="container-fluid text-center">
+                          <img src="images/splash.jpg" class="menu-image">
+                        </div>
+                        <h3>Fruit Bowl</h3>
+                        <p>Description</p>
+                        <p class="price">$4.00</p>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 py-1 my-1">
+                      <div class="menu-item">
+                        <div class="container-fluid text-center">
+                          <img src="images/menu/fruitsalad.jpg" class="menu-image">
+                        </div>
+                        <h3>Fruit Salad</h3>
+                        <p>Description</p>
+                        <p class="price">$5.00</p>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 py-1 my-1">
+                      <div class="menu-item">
+                        <div class="container-fluid text-center">
+                          <img src="images/menu/chickensalad.jpg" class="menu-image">
+                        </div>
+                        <h3>Chicken Salad</h3>
+                        <p>Description</p>
+                        <p class="price">$7.00</p>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 py-1 my-1">
+                      <div class="menu-item">
+                        <div class="container-fluid text-center">
+                          <img src="images/splash.jpg" class="menu-image">
+                        </div>
+                        <h3>Chicken Strip Salad</h3>
+                        <p>Description</p>
+                        <p class="price">$7.00</p>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 py-1 my-1">
+                      <div class="menu-item">
+                        <div class="container-fluid text-center">
+                          <img src="images/splash.jpg" class="menu-image">
+                        </div>
+                        <h3>BLT Sandwich</h3>
+                        <p>Description</p>
+                        <p class="price">$7.00</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingGoodEats">
+              <button style="background: #e3a957" class="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseGoodEats" aria-expanded="false" aria-controls="collapseGoodEats">
+                Good Eats
+              </button>
+            </h2>
+            <div id="collapseGoodEats" class="accordion-collapse collapse" aria-labelledby="headingGoodEats" data-bs-parent="#accordionFood">
+              <div class="accordion-body">
+                <div class="container-fluid">
+                  <div class="row justify-content-center">
+
+                    <div class="col-6 col-md-4 py-1 my-1">
+                      <div class="menu-item">
+                        <div class="container-fluid text-center">
+                          <img src="images/splash.jpg" class="menu-image">
+                        </div>
+                        <h3>Fish Ceviche</h3>
+                        <p>Description</p>
+                        <p class="price">$6.00</p>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 py-1 my-1">
+                      <div class="menu-item">
+                        <div class="container-fluid text-center">
+                          <img src="images/splash.jpg" class="menu-image">
+                        </div>
+                        <h3>Shrimp Ceviche</h3>
+                        <p>Description</p>
+                        <p class="price">$7.00</p>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 py-1 my-1">
+                      <div class="menu-item">
+                        <div class="container-fluid text-center">
+                          <img src="images/splash.jpg" class="menu-image">
+                        </div>
+                        <h3>Querritos</h3>
+                        <p>Description</p>
+                        <p class="price">$6.00</p>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 py-1 my-1">
+                      <div class="menu-item">
+                        <div class="container-fluid text-center">
+                          <img src="images/splash.jpg" class="menu-image">
+                        </div>
+                        <h3>Chicken Croissant</h3>
+                        <p>Description</p>
+                        <p class="price">$5.00</p>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 py-1 my-1">
+                      <div class="menu-item">
+                        <div class="container-fluid text-center">
+                          <img src="images/splash.jpg" class="menu-image">
+                        </div>
+                        <h3>Corn Cup</h3>
+                        <p>Description</p>
+                        <p class="price">$3.00</p>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 py-1 my-1">
+                      <div class="menu-item">
+                        <div class="container-fluid text-center">
+                          <img src="images/splash.jpg" class="menu-image">
+                        </div>
+                        <h3>Crunchy Corn</h3>
+                        <p>Description</p>
+                        <p class="price">$5.00</p>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 py-1 my-1">
+                      <div class="menu-item">
+                        <div class="container-fluid text-center">
+                          <img src="images/menu/hotcheecorn.jpg" class="menu-image">
+                        </div>
+                        <h3>Hot Chee Corn</h3>
+                        <p>Description</p>
+                        <p class="price">$3.50</p>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 py-1 my-1">
+                      <div class="menu-item">
+                        <div class="container-fluid text-center">
+                          <img src="images/menu/hotcheenachos.jpg" class="menu-image">
+                        </div>
+                        <h3>Hot Chee Nachos</h3>
+                        <p>Description</p>
+                        <p class="price">$3.50</p>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 py-1 my-1">
+                      <div class="menu-item">
+                        <div class="container-fluid text-center">
+                          <img src="images/splash.jpg" class="menu-image">
+                        </div>
+                        <h3>Crazy Tacos</h3>
+                        <p>Description</p>
+                        <p class="price">$5.00</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingDessert">
+              <button style="background: #e3a957" class="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDessert" aria-expanded="false" aria-controls="collapseDessert">
+                Dessert
+              </button>
+            </h2>
+            <div id="collapseDessert" class="accordion-collapse collapse" aria-labelledby="headingDessert" data-bs-parent="#accordionFood">
+              <div class="accordion-body">
+                <div class="container-fluid">
+                  <div class="row justify-content-center">
+
+                    <div class="col-6 col-md-4 py-1 my-1">
+                      <div class="menu-item">
+                        <div class="container-fluid text-center">
+                          <img src="images/menu/fresasconcrema.jpg" class="menu-image">
+                        </div>
+                        <h3>Fresas Con Crema</h3>
+                        <p>Description</p>
+                        <p class="price">$5.00</p>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 py-1 my-13">
+                      <div class="menu-item">
+                        <div class="container-fluid text-center">
+                          <img src="images/splash.jpg" class="menu-image">
+                        </div>
+                        <h3>Tres Leches Cake (Slice)</h3>
+                        <p>Description</p>
+                        <p class="price">$3.50</p>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 py-1 my-1">
+                      <div class="menu-item">
+                        <div class="container-fluid text-center">
+                          <img src="images/menu/crazyapple.jpg" class="menu-image">
+                        </div>
+                        <h3>Crazy Apple</h3>
+                        <p>Description</p>
+                        <p class="price">$5.00</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Drinks accorion -->
+  <div class="accordion-item my-1">
+    <h2 class="accordion-header" id="headingDrinks">
+      <button style="background: #e3a957" class="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDrinks" aria-expanded="false" aria-controls="collapseDrinks">
+        Drinks
+      </button>
+    </h2>
+    <div id="collapseDrinks" class="accordion-collapse collapse" aria-labelledby="headingDrinks" data-bs-parent="#accordionMenu">
+      <div class="accordion-body">
+        <div class="accordion accordion-flush" id="accordionDrinks">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSmoothies">
+              <button style="background: #e3a957" class="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSmoothies" aria-expanded="false" aria-controls="collapseSmoothies">
+                Smoothies
+              </button>
+            </h2>
+            <div id="collapseSmoothies" class="accordion-collapse collapse" aria-labelledby="headingSweetTreats" data-bs-parent="#accordionDrinks">
+              <div class="accordion-body">
+                <div class="container mb-3">
+                  <div class="row">
+                    <div class="col-sm-3">
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="container smoothiePicture">
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                    </div>
+                  </div>
+                  <!-- Add a carosel or grid with a bunch of smoothie pictures -->
+                  <h1 class="text-center mt-4 flavorheading">Smoothie Flavors </h1>
+
+                  <ul class="d-flex justify-content-sm-evenly">
+                    <li class="list-inline-item flex-fill"><i class="fa fa-circle"></i> Mangonada</li>
+                    <li class="list-inline-item flex-fill"><i class="fa fa-circle"></i> Pineapple</li>
+                  </ul>
+                  <ul class="d-flex justify-content-sm-evenly">
+                    <li class="list-inline-item flex-fill"><i class="fa fa-circle"></i> Coconut</li>
+                    <li class="list-inline-item flex-fill"><i class="fa fa-circle"></i> Strawberry-Banana</li>
+                  </ul>
+                  <ul class="d-flex justify-content-sm-evenly">
+                    <li class="list-inline-item flex-fill"><i class="fa fa-circle"></i> Mango</li>
+                    <li class="list-inline-item flex-fill"><i class="fa fa-circle"></i> Blueberry-Strawberry</li>
+                  </ul>
+                  <ul class="d-flex justify-content-sm-evenly">
+                    <li class="list-inline-item flex-fill"><i class="fa fa-circle"></i> Strawberry</li>
+                    <li class="list-inline-item flex-fill"><i class="fa fa-circle"></i> Pina Colada</li>
+                  </ul>
+                  <h5 class="text-center">Add Whipped Cream for $0.50</h5>
+                  <h4 class="text-start">$5.00</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingIcees">
+              <button style="background: #e3a957" class="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseIcees" aria-expanded="false" aria-controls="collapseIcees">
+                Icees
+              </button>
+            </h2>
+            <div id="collapseIcees" class="accordion-collapse collapse" aria-labelledby="headingIcees" data-bs-parent="#accordionDrinks">
+              <div class="accordion-body">
+                <div class="container mb-3">
+                  <div class="row">
+                    <div class="col-sm-3">
+                    </div>
+                    <div class="col-sm-6">
+                      <div class="container iceePicture">
+                      </div>
+                    </div>
+                    <div class="col-sm-3">
+                    </div>
+                  </div>
+
+                  <!-- Add a carosel or grid with a bunch of icee pictures -->
+                  <h1 class="text-center mt-4 flavorheading">Icee Flavors </h1>
+
+                  <ul class="d-flex justify-content-sm-evenly">
+                    <li class="list-inline-item flex-fill"><i class="fa fa-circle"></i> Blue Rasberry</li>
+                    <li class="list-inline-item flex-fill"><i class="fa fa-circle"></i> Strawberry</li>
+                  </ul>
+                  <ul class="d-flex justify-content-sm-evenly">
+                    <li class="list-inline-item flex-fill"><i class="fa fa-circle"></i> Pineapple</li>
+                    <li class="list-inline-item flex-fill"><i class="fa fa-circle"></i> Cotton Candy</li>
+                  </ul>
+                  <ul class="d-flex justify-content-sm-evenly">
+                    <li class="list-inline-item flex-fill"><i class="fa fa-circle"></i> Grape</li>
+                    <li class="list-inline-item flex-fill"><i class="fa fa-circle"></i> Chamoy</li>
+                  </ul>
+                  <ul class="d-flex justify-content-sm-evenly">
+                    <li class="list-inline-item flex-fill"><i class="fa fa-circle"></i> Tamarindo</li>
+                    <li class="list-inline-item flex-fill"><i class="fa fa-circle"></i> Fruit Punch</li>
+                  </ul>
+                  <ul class="d-flex justify-content-sm-evenly">
+                    <li class="list-inline-item flex-fill"><i class="fa fa-circle"></i> Cherry</li>
+                    <li class="list-inline-item flex-fill"><i class="fa fa-circle"></i> Pickadilly (+$1.00)</li>
+                  </ul>
+                  <h4 class="text-start">$2.50</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSpecialty">
+              <button style="background: #e3a957" class="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpecialty" aria-expanded="false" aria-controls="collapseSpecialty">
+                Specialty Drinks
+              </button>
+            </h2>
+            <div id="collapseSpecialty" class="accordion-collapse collapse" aria-labelledby="headingSpecialty" data-bs-parent="#accordionDrinks">
+              <div class="accordion-body">
+                <div class="container-fluid">
+                  <div class="row justify-content-center">
+
+                    <div class="col-6 col-md-4 py-1 my-1">
+                      <div class="menu-item">
+                        <div class="container-fluid text-center">
+                          <img src="images/menu/pinaloca.jpg" class="menu-image">
+                        </div>
+                        <h3>Pina Loca</h3>
+                        <p>Description</p>
+                        <p class="price">$9.00</p>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 py-1 my-1">
+                      <div class="menu-item">
+                        <div class="container-fluid text-center">
+                          <img src="images/menu/crazywatermelon.jpg" class="menu-image">
+                        </div>
+                        <h3>Crazy Watermelon</h3>
+                        <p>Description</p>
+                        <p class="price">$13.00</p>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 py-1 my-1">
+                      <div class="menu-item">
+                        <div class="container-fluid text-center">
+                          <img src="images/menu/volcano.jpg" class="menu-image">
+                        </div>
+                        <h3>Volcano</h3>
+                        <p>Description</p>
+                        <p class="price">$6.00</p>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 py-1 my-1">
+                      <div class="menu-item">
+                        <div class="container-fluid text-center">
+                          <img src="images/splash.jpg" class="menu-image">
+                        </div>
+                        <h3>Neire Elado</h3>
+                        <p>Description</p>
+                        <p class="price">$5.00</p>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 py-1 my-1">
+                      <div class="menu-item">
+                        <div class="container-fluid text-center">
+                          <img src="images/splash.jpg" class="menu-image">
+                        </div>
+                        <h3>Fresa Natural</h3>
+                        <p>Description</p>
+                        <p class="price">$3.50</p>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 py-1 my-1">
+                      <div class="menu-item">
+                        <div class="container-fluid text-center">
+                          <img src="images/splash.jpg" class="menu-image">
+                        </div>
+                        <h3>Pina Natural</h3>
+                        <p>Description</p>
+                        <p class="price">$3.50</p>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 py-1 my-1">
+                      <div class="menu-item">
+                        <div class="container-fluid text-center">
+                          <img src="images/splash.jpg" class="menu-image">
+                        </div>
+                        <h3>Tamarindo Natural</h3>
+                        <p>Description</p>
+                        <p class="price">$3.50</p>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 py-1 my-1">
+                      <div class="menu-item">
+                        <div class="container-fluid text-center">
+                          <img src="images/splash.jpg" class="menu-image">
+                        </div>
+                        <h3>Pepinos Locos</h3>
+                        <p>Description</p>
+                        <p class="price">$5.00</p>
+                      </div>
+                    </div>
+
+                    <div class="col-6 col-md-4 py-1 my-1">
+                      <div class="menu-item">
+                        <div class="container-fluid text-center">
+                          <img src="images/splash.jpg" class="menu-image">
+                        </div>
+                        <h3>Crocodile</h3>
+                        <p>Description</p>
+                        <p class="price">$5.00</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Extras accordion -->
+  <div class="accordion-item my-1">
+    <h2 class="accordion-header" id="headingExtras">
+      <button style="background: #e3a957" class="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExtras" aria-expanded="false" aria-controls="collapseExtras">
+        Extras
+      </button>
+    </h2>
+    <div id="collapseExtras" class="accordion-collapse collapse" aria-labelledby="headingExtras" data-bs-parent="#accordionMenu">
+      <div class="accordion-body">
+        <div class="container-fluid">
+          <div class="row justify-content-center">
+
+            <div class="col-6 col-md-4 py-1 my-1">
+              <div class="menu-item">
+                <div class="container-fluid text-center">
+                  <img src="images/menu/rimdip.jpg" class="menu-image">
+                </div>
+                <h3>Rim Dip</h3>
+                <p>Description</p>
+                <p class="price">$5.00</p>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 py-1 my-13">
+              <div class="menu-item">
+                <div class="container-fluid text-center">
+                  <img src="images/menu/soda.jpg" class="menu-image">
+                </div>
+                <h3>Fountain Drinks</h3>
+                <p>Description</p>
+                <p class="price">$3.50</p>
+              </div>
+            </div>
+
+            <div class="col-6 col-md-4 py-1 my-1">
+              <div class="menu-item">
+                <div class="container-fluid text-center">
+                  <img src="images/menu/water.jpg" class="menu-image">
+                </div>
+                <h3>Water</h3>
+                <p>Description</p>
+                <p class="price">$5.00</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container my-3">
+    <h2 class="text-center">Call To Order</h2>
+    <h3 class="text-center"><a href="tel:+3528071511" class="text-decoration-none">+(352)-807-1511</a></h3>
+  </div>
+  <!-- !Menu -->
+
+  <!-- Catering -->
+  <div id="catering" class="container"></div>
+  <div class="section-title">
+    <h1 class="display-1">Catering</h1>
+  </div>
+
+  <div class="cateringimage container mt-3 py-5" id="cateringimage">
+
+    <div class="container">
+      <div class="cateringtitletext">
+        <h1 class="mt-2 display-5 text-center"><u>PLATTERS ($30.00)</u></h1>
+      </div>
+    </div>
+    <div class="container m-2 p-2 mb-auto">
+      <ul class="my-1 d-flex justify-content-evenly">
+        <li class="list-inline-item text-white display-5 cateringtext">Strawberries</li>
+        <li class="list-inline-item text-white display-5 cateringtext">Pineapple</li>
+      </ul>
+      <ul class="my-1 d-flex justify-content-evenly">
+        <li class="list-inline-item text-white display-5 cateringtext">Cantaloupe</li>
+        <li class="list-inline-item text-white display-5 cateringtext">Watermelon</li>
+      </ul>
+    </div>
+
+    <div class="container mt-2">
+      <div class="cateringtitletext">
+        <h1 class="mt-2 display-5 text-center"><u>CAKE ($25.00)</u></h1>
+      </div>
+    </div>
+    <div class="container m-1 p-1 mb-auto">
+      <ul class="my-2 d-flex justify-content-evenly">
+        <li class="list-inline-item text-white display-5 cateringtext">Tres Leches Cake</li>
+      </ul>
+      <ul class="my-2 d-flex justify-content-evenly">
+        <li class="list-inline-item text-white display-5 cateringtext">Serves 20</li>
+      </ul>
+    </div>
+
+    <div class="container mt-2">
+      <div class="cateringtitletext">
+        <h1 class="mt-2 display-5 text-center"><u>Icee Chest Surprise ($50.00)</u></h1>
+      </div>
+    </div>
+    <div class="container m-1 p-1 mb-auto">
+      <ul class="d-flex justify-content-evenly">
+        <li class="list-inline-item text-white display-5 cateringtext">Pick Two Icee Flavors</li>
+      </ul>
+      <ul class="d-flex justify-content-evenly">
+        <li class="list-inline-item text-white display-5 cateringtext">Serves 20, All Supplies Included.</li>
+      </ul>
+    </div>
+
+    <div class="container">
+      <div class="cateringtitletext pt-3">
+        <h1 class="display-3">Speak to a catering specialist.</h1>
+        <p class="cateringtext"><a class="btn btn-lg border border-dark m-1" style="background: #e3a957" href="tel:+3528071511" role="button">Get a Quote</a></p>
+        <h1 class="display-3">Starting at <u>$250.00</u></h1>
+      </div>
+    </div>
+  </div>
+  <!-- !Catering -->
+
+  <!-- Directions -->
+  <div id="directions" class="container"></div>
+  <div class="section-title">
+    <h1 class="display-1">Directions</h1>
+  </div>
+  <div id="map-container" class="z-depth-1-half map-container mb-5" style="height: 500px"></div>
+  <!-- !Directions -->
+
+  <!-- Contact -->
+  <div id="contact" class="container"></div>
+  <div class="section-title">
+    <h1 class="display-1">Contact</h1>
+  </div>
+  <div class="contact">
+
+    <div class="row text-center">
+
+      <div class="col-lg-4 col-md-5 mb-3">
+        <strong><p><i class="fa fa-map fa-1x mr-2 grey-text"></i><a href="geo:28.365697692208848,-82.18840973912813" target="_blank" class="text-decoration-none">13951 7th Unit #6, Dade City, FL 33525</a></p></strong>
+      </div>
+
+      <div class="col-lg-4 col-md-2 mb-3">
+        <strong><p><i class="fa fa-building fa-1x mr-2 grey-text"></i>Sunday-Monday: Closed<br>Tuesday-Saturday: 10:30am-6:00pm</p></strong>
+      </div>
+
+      <div class="col-lg-4 col-md-5 mb-3">
+        <strong><a href="tel:+3528071511" class="text-decoration-none"><p><i class="fa fa-phone fa-1x mr-2 grey-text"></i>+ 1 (352)-807-1511</p></a></strong>
+      </div>
+
+    </div>
+
+    <div class="container-fluid">
+      <div class="container">
+        <center><div class="fb-page border border-dark mb-5" data-href="https://www.facebook.com/Crazycravigs1436/" data-tabs="timeline, events" data-width="400" data-height="500" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Crazycravigs1436/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Crazycravigs1436/">Crazy Cravings</a></blockquote></div></center>
+      </div>
+    </div>
+  </div>
+
+
+
+<center>
+  <div class="row m-2">
+    <div class="col-lg-6 mb-3">
+      <span class="yelp-review" data-review-id="hFcg-ngViPio8d3DTX12YQ" data-hostname="www.yelp.com">Read <a href="https://www.yelp.com/user_details?userid=55akZ8Z_sFkyWfaTJ7Bz9w" rel="nofollow noopener">Amanda C.</a>'s <a href="https://www.yelp.com/biz/crazy-cravings-dade-city?hrid=hFcg-ngViPio8d3DTX12YQ" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/nViynX2HKsrpnr_iugEdcQ" rel="nofollow noopener">Crazy Craving's</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script></span>
+    </div>
+    <div class="col-lg-6 mb-3">
+      <span class="yelp-review" data-review-id="65mn4WDvqdNxGr8hes9ccw" data-hostname="www.yelp.com">Read <a href="https://www.yelp.com/user_details?userid=waM1xKACVAYW5pohTojL5Q" rel="nofollow noopener">Jessica P.</a>'s <a href="https://www.yelp.com/biz/crazy-cravings-dade-city?hrid=65mn4WDvqdNxGr8hes9ccw" rel="nofollow noopener">review</a> of <a href="https://www.yelp.com/biz/nViynX2HKsrpnr_iugEdcQ" rel="nofollow noopener">Crazy Craving's</a> on <a href="https://www.yelp.com" rel="nofollow noopener">Yelp</a><script src="https://www.yelp.com/embed/widgets.js" type="text/javascript" async></script></span>
+    </div>
+  </div>
+</center>
+
+<div class="container-fluid m-4">
+  <center>
+    <a href="https://www.yelp.com/writeareview/biz/nViynX2HKsrpnr_iugEdcQ?return_url=%2Fbiz%2FnViynX2HKsrpnr_iugEdcQ" class="btn btn-danger btn-lg btn-block" role="button">Leave us a Review! <i class="fa fa-yelp"></i></a>
+  </center>
+</div>
+  <!-- !Contact -->
+
+  <!-- Footer -->
+  <footer class="text-center text-white" style="background: #b47c34">
+    <div class="container pt-3">
+      <!-- Section: Social media -->
+      <section class="mb-3">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.facebook.com/Cmontes1436" role="button"><i class="fa fa-facebook-f"></i></a>
+
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://goo.gl/maps/mVJZ7pHLTKUFZm47A" role="button"><i class="fa fa-google"></i></a>
+
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i class="fa fa-instagram"></i></a>
+
+        <!-- Yelp -->
+        <a class="btn btn-outline-light btn-floating m-1" href="https://www.yelp.com/biz/crazy-cravings-dade-city" role="button"><i class="fa fa-yelp"></i></a>
+
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright:
+      <a class="text-white" href="#">Crazy Cravings All rights reserved.</a>
+    </div>
+  </footerclass>
+  <!-- !Footer -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <script src="https://maps.google.com/maps/api/js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
